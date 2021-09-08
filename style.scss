@@ -1,14 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
 nav{
+    @include flexGeneral(center);
+    height: 25vh;
     width: 100vh;
     background-color: aquamarine;
+   
 }
+
+//button{
+    
+//}
 
 main {
     width: 50vh;
+    height: 60vh;
     background-color: violet;
 }
 
 footer {
     width: 25vh;
+    height: 35vh;
     background-color: purple;
+}
+
+@mixin flexGeneral ($position) {
+    display: flex;
+    justify-content: $position;
+    //align-items: center;
 }
