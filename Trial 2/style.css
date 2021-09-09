@@ -1,0 +1,37 @@
+nav {
+  background-color: violet;
+  height: 50vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  background-color: aqua;
+  color: black;
+}
+
+#Butts {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+}
+
+button {
+  background-color: pink;
+  height: 25vh;
+  width: 25vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  background-color: pink;
+  height: 25vh;
+  color: blueviolet;
+}
+/*# sourceMappingURL=style.css.map */
